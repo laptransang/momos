@@ -14,23 +14,20 @@ const notion = new Client({
 });
 
 app.use(cors());
-app.use(express.json()); 
+app.use(express.json());
 
 app.post('/notion', async (req, res) => {
   try {
     const { sorts = [] } = req.body || {};
-    console.log('sorts', sorts)
+
     const response = await notion.databases.query({
       database_id: notionDatabaseId,
       sorts,
     });
     const data = response.results.map((item) => item.properties);
 
-    // console.log('sorts--', sorts);
-
     res.json(data);
   } catch (error) {
-    console.error(error);
     res.status(500).send('Error fetching data from Notion');
   }
 });
@@ -42,7 +39,6 @@ app.get('/notion-fields', async (req, res) => {
 
     res.json(response.properties);
   } catch (error) {
-    console.error(error);
     res.status(500).send('Error fetching database fields from Notion');
   }
 });
