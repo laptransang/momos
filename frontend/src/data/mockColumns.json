@@ -1,0 +1,34 @@
+{
+  "Deadline": {
+    "id": "%3BxEx",
+    "name": "Deadline",
+    "type": "date",
+    "date": {
+
+    }
+  },
+  "Status": {
+    "id": "LEAj",
+    "name": "Status",
+    "type": "checkbox",
+    "checkbox": {
+
+    }
+  },
+  "Files & media": {
+    "id": "mB%7Cw",
+    "name": "Files & media",
+    "type": "files",
+    "files": {
+
+    }
+  },
+  "Name": {
+    "id": "title",
+    "name": "Name",
+    "type": "title",
+    "title": {
+
+    }
+  }
+}

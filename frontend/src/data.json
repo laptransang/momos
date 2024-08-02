@@ -1,0 +1,63 @@
+[
+  {
+    "Deadline": {
+      "id": "%3BxEx",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31",
+        "end": "2024-08-02",
+        "time_zone": null
+      }
+    },
+    "Status": {
+      "id": "LEAj",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Files & media": {
+      "id": "mB%7Cw",
+      "type": "files",
+      "files": [
+        {
+          "name": "full-cover-fabric-sample-file-500x500.webp",
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d622e4b3-1a51-4bf0-9b0a-a5f0d6c5bfc7/3d20f19f-41d4-4430-b5a0-3295f1625fc2/full-cover-fabric-sample-file-500x500.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240802T014817Z&X-Amz-Expires=3600&X-Amz-Signature=d39e112eb81a39688b1e486bbdfe170ee3555699c40e9fd4996283172f640bf6&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "expiry_time": "2024-08-02T02:48:17.257Z"
+          }
+        },
+        {
+          "name": "file-sample_150kB.pdf",
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d622e4b3-1a51-4bf0-9b0a-a5f0d6c5bfc7/2643a774-04bd-46b0-82c8-0bf761a8bc02/file-sample_150kB.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240802T014817Z&X-Amz-Expires=3600&X-Amz-Signature=dccec6492a6a0f486da5d80d6b881a2bdcffc5a357d91a0fa2494542a9f07eda&X-Amz-SignedHeaders=host&x-id=GetObject",
+            "expiry_time": "2024-08-02T02:48:17.263Z"
+          }
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Abc value",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Abc value",
+          "href": null
+        }
+      ]
+    }
+  }
+]
